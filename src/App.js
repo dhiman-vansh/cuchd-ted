@@ -18,6 +18,7 @@ function App() {
   return (
     <div>
       <Head />  
+      {/* basic comment */}
       <Routes>
         <Route path="/" element={<Cuchd />} />
         {/* <Route path="/about" element={<About />} />
