@@ -484,6 +484,26 @@ html {
     backface-visibility: hidden;
 } */
 
+
+.timecont {
+    /* border: 2px solid brown; */
+    /* height: 30px; */
+    position:relative ;
+}
+.timer {
+    position: absolute;
+    /* margin: auto; */
+    left: 16%;
+    color: #0e0d0d;
+    padding: 20px;
+    bottom: -40px;
+    /* top: 0px; */
+    width: 500px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    /* max-width: 750px; */
+    box-shadow: 5px 5px 5px grey ;
+}
 @media screen and (max-width: 990px) {
     .land {
         flex-direction: column;
@@ -519,5 +539,8 @@ html {
     .theme txt {
         font-size: 50px;
     }
+    .timer {
+        margin: auto;
+        width: fit-content;
+    }
 }
-
