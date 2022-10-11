@@ -128,6 +128,8 @@ html {
     background-image: linear-gradient(to right, #ffff, #ffff);
     /* color: aliceblue;  */
     font-family: Helvetica;
+    padding: 3%;
+    font-size: larger;
     /* background-color: white; */
     z-index: 100;
 }
@@ -539,8 +541,13 @@ html {
     .theme txt {
         font-size: 50px;
     }
+    .about{
+        padding-top: 50px;
+    }
     .timer {
-        left: 0px;
+        left: 0%;
+        right: 0%;
+        margin: auto;
         /* margin: auto; */
         width: fit-content;
     }
