@@ -29,7 +29,9 @@ class FCard extends Component {
 				
 				<section>
 					<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-						<div className='cardf' onClick={this.handleClick}>
+						<div className='cardf' 
+						// onClick={this.handleClick}
+						>
 							<fig><img src='https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 							width={"100%"} /></fig>
 							<h3>{this.props.name}</h3>

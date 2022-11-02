@@ -188,15 +188,36 @@ html {
 }
 
 .speakers div section {
-    width: 20%;
+    width: 1px;
+    height: fit-content;
     margin: 2%;
+    min-width: 300px;
+    min-height: 508px;
+    background-image: linear-gradient(to bottom, white, #1a1a1a);
+    overflow: hidden;
+    border-radius: 20px;
+    align-items: center;
+    /* background-color: beige; */
+    /* border: 20px solid black; */
+}
+.fspeak {
+    /* background-color: aqua; */
+    width: 20%;
+    /* margin: 2%;   */
+    min-height: 508px;
+    align-items: center;
     min-width: 300px;
     background-image: linear-gradient(to bottom, white, #1a1a1a);
     overflow: hidden;
     border-radius: 20px;
-    /* border: 20px solid black; */
+    /* width: 100%; */
 }
-
+.bspeak{
+    color: #0e0d0d;
+    min-height: 508px;
+    align-items: center;
+    min-width: 300px;
+}
 .speakers h3 {
     text-decoration: none;
     color: aliceblue;
@@ -300,7 +321,7 @@ html {
     width: 50%;
     min-width: 300px;
     /* margin: 2%; */
-    padding: 2%;
+    /* padding: 2%; */
     margin: auto;
 }
 
@@ -312,11 +333,13 @@ html {
     font-family: Helvetica;
     flex-wrap: wrap;
     z-index: 1;
+    /* margin: auto; */
+    justify-content: center;
 }
 
 .blog section {
     margin: 1%;
-    width: 30%;
+    width: 28%;
     /* height: 37.5rem; */
     background-color: transparent;
     text-align: center;
@@ -346,7 +369,7 @@ html {
 
 .blog section a:hover {
     box-shadow: 2px 2px 20px 5px black;
-}
+}   
 
 .blog section fig {
     border-top-left-radius: 20px;
@@ -414,14 +437,14 @@ html {
 .teams {
     color: white;
     max-width: 95%;
-    margin: 3% auto;
+    margin: 5%;
     text-align: center;
     justify-content: center;
 }
 .fcard section{
     /* margin:; */
     display: block;
-    border: white solid 2px;
+    /* border: white solid 2px; */
     max-width: 250px;
     min-height: 450px;
     background-image: linear-gradient(to bottom, white, #1a1a1a);
@@ -533,11 +556,14 @@ html {
     .head img {
         width: 100%;
     }
-
-    .blog section {
+    .aboutp section{
         width: 100%;
+        padding: 25px;
     }
-    
+    .blog section {
+        width: 85%;
+        margin: auto ;
+    }
     .theme txt {
         font-size: 50px;
     }

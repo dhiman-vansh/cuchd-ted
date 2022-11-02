@@ -11,7 +11,7 @@ export default function Blog() {
         <section>
           <fig>
             <img src="https://miro.medium.com/max/700/1*SwviGDaxkrHhOFqBLPMYvA.jpeg"
-              width={"100%"} />
+              width={"112%"} />
           </fig>
           <txt>
             <h4>AI is Future Maybe</h4>

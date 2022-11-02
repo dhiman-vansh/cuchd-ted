@@ -1,7 +1,7 @@
 import pic from "../Assests/tedx.png";
 import * as luxon from "luxon";
 import { useEffect, useState } from "react";
-
+import SpeakC from "./SpeakC"
 // TODO: Put this component inside component folder
 function CountDown(
   {
@@ -99,49 +99,35 @@ export default function Land() {
         <h3>Speakers</h3>
         <p>Speakers will be announced soon</p>
         <div>
-          <section>
+          {/* <section>
             <fig><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               width={"100%"} /></fig>
             <h5>Coming Soon</h5>
             <p>TEDX</p>
-          </section>
-
+          </section> */}
           <section>
-            <fig><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              width={"100%"} /></fig>
-            <h5>Coming Soon</h5>
-            <p>TEDX</p>
-          </section>
-
-          <section>
-            <fig><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              width={"100%"} /></fig>
-            <h5>Coming Soon</h5>
-            <p>TEDX</p>
+          <SpeakC name="Coming Soon" role="TEDX" />
           </section>
           <section>
-            <fig><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              width={"100%"} /></fig>
-            <h5>Coming Soon</h5>
-            <p>TEDX</p>
+          <SpeakC name="Coming Soon" role="TEDX" />
           </section>
           <section>
-            <fig><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              width={"100%"} /></fig>
-            <h5>Coming Soon</h5>
-            <p>TEDX</p>
+          <SpeakC name="Coming Soon" role="TEDX" />
           </section>
           <section>
-            <fig><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              width={"100%"} /></fig>
-            <h5>Coming Soon</h5>
-            <p>TEDX</p>
+          <SpeakC name="Coming Soon" role="TEDX" />
           </section>
           <section>
-            <fig><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              width={"100%"} /></fig>
-            <h5>Coming Soon</h5>
-            <p>TEDX</p>
+          <SpeakC name="Coming Soon" role="TEDX" />
+          </section>
+          <section>
+          <SpeakC name="Coming Soon" role="TEDX" />
+          </section>
+          <section>
+          <SpeakC name="Coming Soon" role="TEDX" />
+          </section>
+          <section>
+          <SpeakC name="Coming Soon" role="TEDX" />
           </section>
 
 
